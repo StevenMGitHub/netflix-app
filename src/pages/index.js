@@ -33,7 +33,7 @@ const Home = ({
       <main className="relative bg-gradient-to-b from-gray-900/10 to-[#010511]">
         <Hero moviePosters={moviePosters} /> {/* pasamos el cartel de pelicula a 'hero' */}
 
-        {/* importamos 'Row' component y pasamos las diferentes categorias de peliculas */}
+        {/* importamos 'Row' component y pasamos las diferentes categorias de peliculas  */}
         <section className="container pb-32">
           <Row title="Trending Now" movies={trendingNow} />
           <Row title="Top Rated" movies={topRated} />
